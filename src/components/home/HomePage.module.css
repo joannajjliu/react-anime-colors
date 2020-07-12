@@ -1,11 +1,24 @@
 .container {
   margin: 40px;
   border: 5px dashed pink;
-  background-color: blue;
 }
 .content {
   font-size: 15px;
   text-align: center;
-  background-color: blue;
+  background-color: rgb(207, 79, 190);
   color: white;
+  padding: 0.4rem 0;
+  margin: 0;
+}
+.sqcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  width: 50%;
+}
+.square:nth-child(2n) {
+  flex: 1;
+  flex-basis: 100%;
+  padding: 16px;
+  height: 100%;
 }
