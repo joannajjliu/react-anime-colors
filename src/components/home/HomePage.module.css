@@ -10,15 +10,29 @@
   padding: 0.4rem 0;
   margin: 0;
 }
-.sqcontainer {
+/* .sqcontainer {
   display: flex;
   flex-wrap: wrap;
   margin: 3rem auto;
   width: 50%;
-}
-.square:nth-child(2n) {
+} */
+/* .square:nth-child(2n) {
   flex: 1;
   flex-basis: 100%;
   padding: 16px;
   height: 100%;
+} */
+.square {
+  height: 4rem;
+  width: 98%;
+  margin: 0.1rem auto;
+  z-index: -1;
+}
+
+.square:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  box-shadow: inset 0 0 0 3px #53a7ea;
+  z-index: 1;
 }
