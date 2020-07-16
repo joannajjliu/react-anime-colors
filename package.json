@@ -47,6 +47,7 @@
     "root": true
   },
   "dependencies": {
+    "animejs": "^3.2.0",
     "bootstrap": "4.3.1",
     "file-loader": "^6.0.0",
     "immer": "2.1.3",

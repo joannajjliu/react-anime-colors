@@ -25,9 +25,13 @@ export const HomePage = () => {
 
 const createColorsArray = () => {
   const colors = [];
-  let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  let randomColor = Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padEnd(6, "0");
   for (let i = 0; i < 12; i++) {
-    randomColor = Math.floor(Math.random() * 16777215).toString(16);
+    randomColor = Math.floor(Math.random() * 16777215)
+      .toString(16)
+      .padEnd(6, "0");
     colors.push(randomColor);
   }
   return colors;

@@ -14,7 +14,7 @@ export const ColorsSelected = (props) => {
             className={`${styles.square}`}
             style={{ backgroundColor: `#${selectedColor}` }}
           >
-            <div className={`${styles.squareText}`}>{selectedColor}</div>
+            <div className={`${styles.squareText}`}>#{selectedColor}</div>
           </div>
         );
       });

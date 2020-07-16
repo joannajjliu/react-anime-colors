@@ -1,0 +1,14 @@
+.square {
+  height: 4rem;
+  width: 98%;
+  margin: 0.1rem auto;
+  z-index: -1;
+}
+
+.square:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  box-shadow: inset 0 0 0 3px #53a7ea;
+  z-index: 1;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { ColorsSelected } from "./ColorsSelected";
-import styles from "./HomePage.module.css";
+import styles from "./ColorTiles.module.css";
 import clickSound from "../../sounds/Click.mp3";
 import bellSound01 from "../../sounds/zapsplat_bell_small_ring_01.mp3";
 import UIFx from "uifx";
@@ -12,11 +12,6 @@ export class ColorTiles extends React.Component {
     this.state = { selectedColors: [] };
     this.handleClick = this.handleClick.bind(this);
   }
-
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   console.log("selectedColors:", this.state.selectedColors);
-  //   return true;
-  // }
 
   handleClick(index) {
     console.log("index: ", index);
